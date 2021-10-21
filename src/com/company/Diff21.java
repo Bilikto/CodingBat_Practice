@@ -11,6 +11,7 @@ public class Diff21 {
         System.out.println(diff21(19));
         System.out.println(diff21(10));
         System.out.println(diff21(21));
+        System.out.println(diff21(30));
     }
 
     public static int diff21(int n) {
