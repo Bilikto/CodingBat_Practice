@@ -9,6 +9,9 @@ public class MonkeyTrouble {
         * monkeyTrouble(false, false) → true
         * monkeyTrouble(true, false) → false
         * */
+        System.out.println(monkeyTrouble(true, true));
+        System.out.println(monkeyTrouble(false, false));
+        System.out.println(monkeyTrouble(true, false));
     }
 
     public static boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
