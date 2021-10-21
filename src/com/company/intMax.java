@@ -18,11 +18,8 @@ public class intMax {
             return a;
         } else if (b > c && b > a) {
             return b;
-        } else if(c > a &&  c > b) {
+        } else {
             return c;
-        }
-        else {
-            return 0;
         }
     }
 }
