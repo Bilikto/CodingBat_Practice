@@ -9,7 +9,7 @@ public class Or35 {
              * or35(8) → false
              * */
             System.out.println(or35(3));
-            System.out.println(or35(10));pwd
+            System.out.println(or35(10));
 
             System.out.println(or35(8));
 
