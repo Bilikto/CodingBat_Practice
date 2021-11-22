@@ -29,6 +29,7 @@ public class StartOz {
             s =  s + str.charAt(1);
         }
 
+
         return s;
     }
 
