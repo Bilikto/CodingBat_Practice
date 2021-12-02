@@ -1,4 +1,4 @@
-package com.array1;
+package com.array_1;
 
 public class FirstLast6 {
     public static void main(String[] args) {
