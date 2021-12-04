@@ -16,11 +16,9 @@ public class CommonEnd {
         System.out.println(commonEnd(new int[] {1, 2, 3}, new int[]{7, 3, 2}));
         System.out.println(commonEnd(new int[] {1, 2, 3}, new int[]{1, 3}));
 
-
     }
 
     public static boolean commonEnd(int[] a, int[] b) {
-
 
             int firstA = a[0];
             int lastA = a[a.length-1];
@@ -29,10 +27,6 @@ public class CommonEnd {
             int lastB = b[b.length-1];
 
             return (firstA == firstB || lastA == lastB );
-
-
-
-
 
     }
 }
