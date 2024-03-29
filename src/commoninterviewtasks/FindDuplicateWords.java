@@ -8,7 +8,7 @@ public class FindDuplicateWords {
     public static void main(String[] args) {
         String str = "Big black bug bit a big black dog on his big black nose";
         String[] arr = str.split(" ");
-        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(arr));
 
         Set<String> setOfWords = new HashSet<>();
         Set<String> setOfDuplicates = new HashSet<>();
@@ -20,5 +20,6 @@ public class FindDuplicateWords {
         }
 
         System.out.println("Duplicate words " + setOfDuplicates);
+        System.out.println("Duplicate words " + setOfWords);
     }
 }
